@@ -1,16 +1,20 @@
 import { useEffect, useState } from "react"
 import './form.css'
+import { NombreCard } from "./NombreCard";
 export function Formulario(){
 
     const[nombre, setNombre] = useState('');
     
     useEffect(()=> {
+
         console.log("elpepe");
     }, []) ;
 
 
+    
     const handleSubmit = (e) => {
-        e.preventDefault();
+        e.preventDefault();  
+ 
         console.log(e);
       }
     
