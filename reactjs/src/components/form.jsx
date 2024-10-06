@@ -19,16 +19,16 @@ export function Formulario(){
       }
     
     return(
-        <div>
+        <div class="alert alert-secondary">
             <form onSubmit={handleSubmit}>
                 <input
                 type="text"
-                placeholder="Pon tu nombre"
+                placeholder="Escribe tu animal favorito"
                 value={nombre}
                 onChange={(e) => setNombre(e.target.value)} 
                 />
                 
-            <button type="submit">Siguiente</button>
+            <button type="submit" class="btn btn-primary">Siguiente</button>
             </form>
         </div>
     );

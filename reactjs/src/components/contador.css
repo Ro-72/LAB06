@@ -6,18 +6,18 @@ div {
     box-sizing: border-box;
   }
 
-#flex-container {
-  border: 2px dashed gray;
+#flex-container1 {
+
   display: flex;
 }
 
-#flex-auto {
+#flex-auto1 {
   cursor: pointer;
   background-color: wheat;
 
   flex: auto;
 }
 
-#default {
+#default1 {
   background-color: lightblue;
 }
